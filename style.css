@@ -314,3 +314,52 @@ a.author{
     opacity: 1;
   }
 }
+@import url('https://fonts.googleapis .com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.feliz {
+    font-size: 3em;
+    color: #ffcc00;
+    margin-top: 20px;
+}
+
+.ano_novo {
+    font-size: 5em;
+    color: #ff5733;
+}
+
+.fogos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.f1, .f2, .f3, .f4 {
+    margin: 0 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
